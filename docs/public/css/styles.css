@@ -150,6 +150,9 @@ p { font-size: 1.05rem; }
 .hero-ring-showcase .ring-emoji {
   font-size: 8rem; filter: drop-shadow(0 4px 12px rgba(0,0,0,0.1));
 }
+.hero-product-img {
+  width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+}
 .hero-ring-showcase .floating-tag {
   position: absolute; background: white; padding: 10px 16px;
   border-radius: var(--radius); box-shadow: var(--shadow);
