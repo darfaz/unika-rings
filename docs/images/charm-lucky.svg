@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f3ea"/>
+      <stop offset="100%" stop-color="#e6e0cc"/>
+    </linearGradient>
+    <linearGradient id="silver3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="40%" stop-color="#f0f0f0"/>
+      <stop offset="60%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="shadow3"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg3)"/>
+  
+  <g transform="translate(200,220)" filter="url(#shadow3)">
+    <!-- Oura ring base -->
+    <ellipse rx="72" ry="72" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <ellipse rx="52" ry="52" fill="#333"/>
+    
+    <!-- Silver jacket -->
+    <path d="M-74,-20 Q-78,0 -74,20 Q-60,45 -30,55 Q0,60 30,55 Q60,45 74,20 Q78,0 74,-20 Q60,-45 30,-55 Q0,-60 -30,-55 Q-60,-45 -74,-20Z" 
+          fill="url(#silver3)" opacity="0.85" stroke="#b0b0b0" stroke-width="1.5"/>
+    
+    <!-- Bezel-set peridot (green) -->
+    <circle cx="0" cy="-35" r="14" fill="#a8c878" stroke="#c0c0c0" stroke-width="2.5"/>
+    <circle cx="0" cy="-35" r="10" fill="#8ab858" opacity="0.5"/>
+    <ellipse cx="-3" cy="-38" rx="4" ry="3" fill="rgba(255,255,255,0.45)"/>
+    
+    <!-- Charm chains -->
+    <line x1="-28" y1="49" x2="-28" y2="74" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="0" y1="55" x2="0" y2="82" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="28" y1="49" x2="28" y2="74" stroke="#c0c0c0" stroke-width="1.5"/>
+    
+    <!-- Charm: four-leaf clover -->
+    <g transform="translate(-28,84)">
+      <circle cx="-4" cy="-4" r="4" fill="#7ab848" stroke="#c0c0c0" stroke-width="0.8"/>
+      <circle cx="4" cy="-4" r="4" fill="#7ab848" stroke="#c0c0c0" stroke-width="0.8"/>
+      <circle cx="-4" cy="4" r="4" fill="#7ab848" stroke="#c0c0c0" stroke-width="0.8"/>
+      <circle cx="4" cy="4" r="4" fill="#7ab848" stroke="#c0c0c0" stroke-width="0.8"/>
+      <line x1="0" y1="5" x2="0" y2="12" stroke="#7ab848" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Charm: horseshoe -->
+    <g transform="translate(0,92)">
+      <path d="M-7,-6 C-7,-10 -4,-12 0,-12 C4,-12 7,-10 7,-6 L7,4 L4,4 L4,-5 C4,-8 2,-10 0,-10 C-2,-10 -4,-8 -4,-5 L-4,4 L-7,4Z" 
+            fill="#f0d890" stroke="#c0c0c0" stroke-width="0.8"/>
+      <circle cx="-7" cy="4" r="1.5" fill="#c0c0c0"/>
+      <circle cx="7" cy="4" r="1.5" fill="#c0c0c0"/>
+    </g>
+    
+    <!-- Charm: evil eye -->
+    <g transform="translate(28,82)">
+      <ellipse rx="8" ry="5.5" fill="#4a90d9" stroke="#c0c0c0" stroke-width="0.8"/>
+      <circle r="3.5" fill="white"/>
+      <circle r="2" fill="#1a1a2e"/>
+      <ellipse cx="-1" cy="-0.5" rx="0.8" ry="0.6" fill="rgba(255,255,255,0.7)"/>
+    </g>
+  </g>
+  
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" font-weight="300" letter-spacing="2">LUCKY CHARM</text>
+  <text x="200" y="445" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8a857d" letter-spacing="3">CHARM RING JACKET</text>
+  <text x="200" y="472" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#b8976a">Sterling Silver · Peridot · Clover, Horseshoe &amp; Evil Eye</text>
+</svg>

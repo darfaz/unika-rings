@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf2f0"/>
+      <stop offset="100%" stop-color="#f0dcd6"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="40%" stop-color="#f0f0f0"/>
+      <stop offset="60%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="shadow1"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg1)"/>
+  
+  <!-- Ring jacket body -->
+  <g transform="translate(200,220)" filter="url(#shadow1)">
+    <!-- Oura ring base (dark) -->
+    <ellipse rx="72" ry="72" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <ellipse rx="52" ry="52" fill="#333"/>
+    <ellipse rx="72" ry="72" fill="none" stroke="#444" stroke-width="0.5" stroke-dasharray="2,4"/>
+    
+    <!-- Silver jacket overlay -->
+    <path d="M-74,-20 Q-78,0 -74,20 Q-60,45 -30,55 Q0,60 30,55 Q60,45 74,20 Q78,0 74,-20 Q60,-45 30,-55 Q0,-60 -30,-55 Q-60,-45 -74,-20Z" 
+          fill="url(#silver)" opacity="0.85" stroke="#b0b0b0" stroke-width="1.5"/>
+    
+    <!-- Bezel-set center stone (rose quartz) -->
+    <circle cx="0" cy="-35" r="14" fill="#e8b4b8" stroke="#c0c0c0" stroke-width="2.5"/>
+    <circle cx="0" cy="-35" r="10" fill="#d4949a" opacity="0.6"/>
+    <ellipse cx="-3" cy="-38" rx="4" ry="3" fill="rgba(255,255,255,0.4)"/>
+    
+    <!-- Charm chain links -->
+    <line x1="-25" y1="50" x2="-25" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="0" y1="55" x2="0" y2="80" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="25" y1="50" x2="25" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    
+    <!-- Charm: tiny flower -->
+    <g transform="translate(-25,80)">
+      <circle r="8" fill="#f5c6d0" stroke="#c0c0c0" stroke-width="1"/>
+      <circle cx="-4" cy="-3" r="2.5" fill="#e8a0ae"/>
+      <circle cx="4" cy="-3" r="2.5" fill="#e8a0ae"/>
+      <circle cx="-4" cy="3" r="2.5" fill="#e8a0ae"/>
+      <circle cx="4" cy="3" r="2.5" fill="#e8a0ae"/>
+      <circle r="2" fill="#f0d890"/>
+    </g>
+    
+    <!-- Charm: tiny heart -->
+    <g transform="translate(0,90)">
+      <path d="M0,-4 C-3,-8 -9,-8 -9,-3 C-9,2 0,8 0,8 C0,8 9,2 9,-3 C9,-8 3,-8 0,-4Z" 
+            fill="#d4949a" stroke="#c0c0c0" stroke-width="1"/>
+    </g>
+    
+    <!-- Charm: tiny star -->
+    <g transform="translate(25,80)">
+      <polygon points="0,-9 2.5,-3 9,-3 4,2 6,9 0,5 -6,9 -4,2 -9,-3 -2.5,-3" 
+               fill="#f0d890" stroke="#c0c0c0" stroke-width="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Label -->
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" font-weight="300" letter-spacing="2">DREAMWORLD</text>
+  <text x="200" y="445" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8a857d" letter-spacing="3">CHARM RING JACKET</text>
+  <text x="200" y="472" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#b8976a">Sterling Silver · Rose Quartz · Vintage Charms</text>
+</svg>

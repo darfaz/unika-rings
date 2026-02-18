@@ -1,0 +1,84 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef1f7"/>
+      <stop offset="100%" stop-color="#d8dfed"/>
+    </linearGradient>
+    <linearGradient id="silver2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="40%" stop-color="#f0f0f0"/>
+      <stop offset="60%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="shadow2"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg2)"/>
+  
+  <!-- Subtle star field background -->
+  <circle cx="80" cy="60" r="1" fill="#b8976a" opacity="0.4"/>
+  <circle cx="320" cy="90" r="1.2" fill="#b8976a" opacity="0.3"/>
+  <circle cx="150" cy="120" r="0.8" fill="#b8976a" opacity="0.5"/>
+  <circle cx="340" cy="200" r="1" fill="#b8976a" opacity="0.3"/>
+  <circle cx="60" cy="300" r="0.8" fill="#b8976a" opacity="0.4"/>
+  
+  <g transform="translate(200,220)" filter="url(#shadow2)">
+    <!-- Oura ring base -->
+    <ellipse rx="72" ry="72" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <ellipse rx="52" ry="52" fill="#333"/>
+    
+    <!-- Silver jacket -->
+    <path d="M-74,-20 Q-78,0 -74,20 Q-60,45 -30,55 Q0,60 30,55 Q60,45 74,20 Q78,0 74,-20 Q60,-45 30,-55 Q0,-60 -30,-55 Q-60,-45 -74,-20Z" 
+          fill="url(#silver2)" opacity="0.85" stroke="#b0b0b0" stroke-width="1.5"/>
+    
+    <!-- Bezel-set moonstone (blue) -->
+    <circle cx="0" cy="-35" r="14" fill="#a8b8d8" stroke="#c0c0c0" stroke-width="2.5"/>
+    <circle cx="0" cy="-35" r="10" fill="#8aa0c4" opacity="0.5"/>
+    <ellipse cx="-3" cy="-38" rx="5" ry="3" fill="rgba(255,255,255,0.5)"/>
+    
+    <!-- Charm chains -->
+    <line x1="-30" y1="48" x2="-30" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="0" y1="55" x2="0" y2="82" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="30" y1="48" x2="30" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="-15" y1="53" x2="-15" y2="74" stroke="#c0c0c0" stroke-width="1"/>
+    <line x1="15" y1="53" x2="15" y2="74" stroke="#c0c0c0" stroke-width="1"/>
+    
+    <!-- Charm: crescent moon -->
+    <g transform="translate(-30,82)" filter="url(#glow)">
+      <path d="M0,-8 C-5,-8 -8,-4 -8,0 C-8,5 -4,8 0,8 C-2,6 -3,3 -3,0 C-3,-3 -2,-6 0,-8Z" 
+            fill="#f0d890" stroke="#c0c0c0" stroke-width="0.8" transform="rotate(30)"/>
+    </g>
+    
+    <!-- Charm: star -->
+    <g transform="translate(0,92)">
+      <polygon points="0,-10 3,-3.5 10,-3.5 4.5,1.5 6.5,8.5 0,4.5 -6.5,8.5 -4.5,1.5 -10,-3.5 -3,-3.5" 
+               fill="#f0d890" stroke="#c0c0c0" stroke-width="0.8"/>
+    </g>
+    
+    <!-- Charm: tiny planet/circle -->
+    <g transform="translate(30,82)">
+      <circle r="7" fill="none" stroke="#c0c0c0" stroke-width="1.5"/>
+      <ellipse rx="7" ry="3" fill="none" stroke="#c0c0c0" stroke-width="0.8" transform="rotate(25)"/>
+      <circle r="3" fill="#a8b8d8" opacity="0.6"/>
+    </g>
+    
+    <!-- Charm: tiny sparkle -->
+    <g transform="translate(-15,80)">
+      <line x1="0" y1="-5" x2="0" y2="5" stroke="#f0d890" stroke-width="1"/>
+      <line x1="-5" y1="0" x2="5" y2="0" stroke="#f0d890" stroke-width="1"/>
+      <line x1="-3" y1="-3" x2="3" y2="3" stroke="#f0d890" stroke-width="0.6"/>
+      <line x1="3" y1="-3" x2="-3" y2="3" stroke="#f0d890" stroke-width="0.6"/>
+    </g>
+    
+    <!-- Charm: tiny shooting star -->
+    <g transform="translate(15,82)">
+      <polygon points="0,-5 1.5,-1.5 5,-1.5 2.5,1 3.5,5 0,2.5 -3.5,5 -2.5,1 -5,-1.5 -1.5,-1.5" 
+               fill="#f0d890" stroke="#c0c0c0" stroke-width="0.5"/>
+      <line x1="4" y1="-4" x2="8" y2="-8" stroke="#f0d890" stroke-width="0.8"/>
+    </g>
+  </g>
+  
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" font-weight="300" letter-spacing="2">CELESTIAL</text>
+  <text x="200" y="445" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8a857d" letter-spacing="3">CHARM RING JACKET</text>
+  <text x="200" y="472" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#b8976a">Sterling Silver · Moonstone · Moon &amp; Star Charms</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f1f5"/>
+      <stop offset="100%" stop-color="#e6d8e2"/>
+    </linearGradient>
+    <linearGradient id="silver4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4d4d4"/>
+      <stop offset="40%" stop-color="#f0f0f0"/>
+      <stop offset="60%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </linearGradient>
+    <filter id="shadow4"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4)"/>
+  
+  <g transform="translate(200,220)" filter="url(#shadow4)">
+    <!-- Oura ring base -->
+    <ellipse rx="72" ry="72" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <ellipse rx="52" ry="52" fill="#333"/>
+    
+    <!-- Silver jacket -->
+    <path d="M-74,-20 Q-78,0 -74,20 Q-60,45 -30,55 Q0,60 30,55 Q60,45 74,20 Q78,0 74,-20 Q60,-45 30,-55 Q0,-60 -30,-55 Q-60,-45 -74,-20Z" 
+          fill="url(#silver4)" opacity="0.85" stroke="#b0b0b0" stroke-width="1.5"/>
+    
+    <!-- Bezel-set amethyst (purple) -->
+    <circle cx="0" cy="-35" r="14" fill="#b894d4" stroke="#c0c0c0" stroke-width="2.5"/>
+    <circle cx="0" cy="-35" r="10" fill="#9870b8" opacity="0.5"/>
+    <ellipse cx="-3" cy="-38" rx="4" ry="3" fill="rgba(255,255,255,0.4)"/>
+    
+    <!-- Charm chains -->
+    <line x1="-28" y1="49" x2="-28" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="-8" y1="54" x2="-8" y2="76" stroke="#c0c0c0" stroke-width="1"/>
+    <line x1="12" y1="54" x2="12" y2="78" stroke="#c0c0c0" stroke-width="1.5"/>
+    <line x1="30" y1="48" x2="30" y2="72" stroke="#c0c0c0" stroke-width="1.5"/>
+    
+    <!-- Charm: butterfly -->
+    <g transform="translate(-28,82)">
+      <path d="M0,0 C-6,-8 -12,-6 -10,-1 C-9,2 -4,4 0,0Z" fill="#c898d8" stroke="#c0c0c0" stroke-width="0.6"/>
+      <path d="M0,0 C6,-8 12,-6 10,-1 C9,2 4,4 0,0Z" fill="#d4a8e0" stroke="#c0c0c0" stroke-width="0.6"/>
+      <path d="M0,0 C-5,6 -10,5 -8,1 C-7,-1 -3,-2 0,0Z" fill="#c898d8" stroke="#c0c0c0" stroke-width="0.6" opacity="0.8"/>
+      <path d="M0,0 C5,6 10,5 8,1 C7,-1 3,-2 0,0Z" fill="#d4a8e0" stroke="#c0c0c0" stroke-width="0.6" opacity="0.8"/>
+      <line x1="0" y1="-4" x2="0" y2="5" stroke="#888" stroke-width="0.8"/>
+    </g>
+    
+    <!-- Charm: tiny leaf -->
+    <g transform="translate(-8,84)">
+      <path d="M0,-7 C4,-5 6,-1 5,3 C4,6 1,7 0,7 C-1,7 -4,6 -5,3 C-6,-1 -4,-5 0,-7Z" 
+            fill="#8ab858" stroke="#c0c0c0" stroke-width="0.6"/>
+      <line x1="0" y1="-5" x2="0" y2="6" stroke="#6a9838" stroke-width="0.5"/>
+    </g>
+    
+    <!-- Charm: vintage key -->
+    <g transform="translate(12,86)">
+      <circle cy="-6" r="4" fill="none" stroke="#b8976a" stroke-width="1.5"/>
+      <line x1="0" y1="-2" x2="0" y2="8" stroke="#b8976a" stroke-width="1.5"/>
+      <line x1="0" y1="6" x2="3" y2="6" stroke="#b8976a" stroke-width="1.2"/>
+      <line x1="0" y1="8" x2="2.5" y2="8" stroke="#b8976a" stroke-width="1.2"/>
+    </g>
+    
+    <!-- Charm: tiny mushroom -->
+    <g transform="translate(30,80)">
+      <ellipse cx="0" cy="-3" rx="7" ry="5" fill="#d4726a" stroke="#c0c0c0" stroke-width="0.6"/>
+      <rect x="-2.5" y="-1" width="5" height="8" rx="1.5" fill="#f0e8d8" stroke="#c0c0c0" stroke-width="0.5"/>
+      <circle cx="-3" cy="-5" r="1.2" fill="white" opacity="0.7"/>
+      <circle cx="2" cy="-3" r="1" fill="white" opacity="0.7"/>
+      <circle cx="-1" cy="-1" r="0.8" fill="white" opacity="0.5"/>
+    </g>
+  </g>
+  
+  <text x="200" y="420" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#1a1a1a" font-weight="300" letter-spacing="2">VINTAGE GARDEN</text>
+  <text x="200" y="445" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8a857d" letter-spacing="3">CHARM RING JACKET</text>
+  <text x="200" y="472" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#b8976a">Sterling Silver · Amethyst · Butterfly, Key &amp; Mushroom</text>
+</svg>
