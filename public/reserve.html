@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Your VIP Spot — Unika Rings</title>
+  <meta name="description" content="Lock in 40% off Unika Ring covers with a $1 reservation. Full refund guarantee. Launching on Kickstarter soon.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="container">
+      <a href="/" class="nav-logo">Unika<span>.</span></a>
+      <div class="nav-links">
+        <a href="/">← Back to Home</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="reserve-page">
+    <div class="container">
+      <div class="reserve-info">
+        <h1>Lock In <em style="color:var(--gold);">40% Off</em><br>Before Anyone Else</h1>
+        <p class="desc">VIP reservation holders get first access to Unika Ring covers at the lowest price we'll ever offer. Just $1 to secure your spot.</p>
+        
+        <ul class="reserve-benefits">
+          <li><strong>40% off retail pricing</strong> on launch day — locked in, guaranteed</li>
+          <li><strong>First access</strong> before the public Kickstarter launch</li>
+          <li><strong>Exclusive designs</strong> only available to VIP backers</li>
+          <li><strong>Priority fulfillment</strong> — VIPs ship first</li>
+          <li><strong>$1 applied to your order</strong> — it's a deposit, not a fee</li>
+        </ul>
+
+        <div class="reserve-guarantee">
+          <span class="shield">🛡️</span>
+          <p><strong>100% Refund Guarantee.</strong> Change your mind? Full refund anytime before production. No questions, no hassle.</p>
+        </div>
+      </div>
+
+      <div class="reserve-card">
+        <div class="reserve-card-header">
+          <div class="reserve-card-badge">✨ VIP Early Access</div>
+          <div class="reserve-price-display">
+            <span class="amount">$1</span>
+          </div>
+          <span class="label">One-time reservation deposit</span>
+        </div>
+
+        <ul class="reserve-features">
+          <li><span class="check">✓</span> 40% off retail on launch day</li>
+          <li><span class="check">✓</span> First access before public</li>
+          <li><span class="check">✓</span> VIP-only designs</li>
+          <li><span class="check">✓</span> Priority shipping</li>
+          <li><span class="check">✓</span> Full refund guarantee</li>
+        </ul>
+
+        <button class="btn btn-primary btn-lg btn-block" id="checkout-btn" onclick="handleCheckout()">
+          Reserve My VIP Spot →
+        </button>
+
+        <div class="stripe-badge">
+          🔒 Secure payment via Stripe
+        </div>
+
+        <p class="reserve-disclaimer">
+          Unika Rings is in final development. Images shown are production-intent designs and final appearance may vary slightly. Your VIP price is locked — we'll notify you before the campaign launches with full details. By reserving, you agree to our <a href="/terms">Terms</a> and <a href="/privacy">Privacy Policy</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">&copy; 2026 Unika Rings. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're In! — Unika Rings</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="/" class="nav-logo">Unika<span>.</span></a>
+    </div>
+  </nav>
+
+  <section class="confirmed-page">
+    <div class="container">
+      <div class="confirmed-card">
+        <div class="confirmed-checkmark">✓</div>
+        <h1>You're In! 🎉</h1>
+        <p class="desc">Your VIP reservation is confirmed. You've locked in 40% off when we launch on Kickstarter.</p>
+
+        <ul class="next-steps-list">
+          <li>
+            <span class="num">1</span>
+            <strong>Check your inbox</strong> — Your receipt and VIP details are on the way
+          </li>
+          <li>
+            <span class="num">2</span>
+            <strong>Follow us on Instagram</strong> — Get sneak peeks of new designs before anyone
+          </li>
+          <li>
+            <span class="num">3</span>
+            <strong>Tell a friend</strong> — Know someone with an Oura Ring? They'll thank you
+          </li>
+        </ul>
+
+        <div class="share-section">
+          <h3>Spread the word 💍</h3>
+          <div class="share-buttons">
+            <a href="https://twitter.com/intent/tweet?text=Just%20reserved%20my%20Unika%20Ring%20cover%20%E2%80%94%20snap-on%20covers%20that%20make%20your%20Oura%20Ring%20look%20like%20actual%20jewelry!%20%F0%9F%92%8D%20Get%2040%25%20off%3A&url=https://unikarings.com" 
+               target="_blank" class="share-btn share-btn-x">𝕏 Share on X</a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://unikarings.com" 
+               target="_blank" class="share-btn share-btn-fb">📘 Share on Facebook</a>
+            <button class="share-btn share-btn-copy" id="copy-link">📋 Copy Link</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-copy">&copy; 2026 Unika Rings. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+  <script>
+    // Track purchase conversion
+    if (typeof gtag === 'function') gtag('event', 'purchase', { value: 1.00, currency: 'USD', transaction_id: new URLSearchParams(window.location.search).get('session_id') });
+    if (typeof fbq === 'function') fbq('track', 'Purchase', { value: 1.00, currency: 'USD' });
+
+    // Copy link
+    document.getElementById('copy-link')?.addEventListener('click', function() {
+      navigator.clipboard.writeText('https://unikarings.com');
+      this.textContent = '✅ Copied!';
+      setTimeout(() => this.textContent = '📋 Copy Link', 2000);
+    });
+  </script>
+</body>
+</html>
