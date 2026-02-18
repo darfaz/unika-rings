@@ -1,0 +1,103 @@
+{
+  "brand": {
+    "name": "Unika Rings",
+    "tagline": "Dress Your Ring",
+    "description": "Premium decorative covers that transform your Oura Ring into jewelry",
+    "url": "https://unikarings.com",
+    "email": "hello@unikarings.com",
+    "social": {
+      "instagram": "",
+      "tiktok": "",
+      "facebook": ""
+    }
+  },
+  "product": {
+    "name": "Unika Ring Cover",
+    "compatibleWith": "Oura Ring Gen 3 & Gen 4",
+    "priceRetail": 24.99,
+    "priceVIP": 14.99,
+    "discount": "40%",
+    "reservationCost": 1.00,
+    "currency": "USD",
+    "shipsDate": "Summer 2026"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Your Oura Ring. Your Style.",
+      "subheadline": "Premium snap-on covers that transform your health tracker into jewelry. Change your look in seconds.",
+      "cta": "Get VIP Launch Pricing →",
+      "ctaSubtext": "Join {{count}} others waiting for launch"
+    },
+    "features": [
+      {
+        "icon": "✨",
+        "title": "Instant Style Upgrade",
+        "description": "From tech gadget to fashion statement in one snap"
+      },
+      {
+        "icon": "🔬",
+        "title": "Sensor-Safe Design",
+        "description": "Open-bottom engineering preserves 100% of your Oura tracking"
+      },
+      {
+        "icon": "🔄",
+        "title": "Swap in Seconds",
+        "description": "Snap-fit design lets you change your look to match any outfit"
+      },
+      {
+        "icon": "💪",
+        "title": "Built to Last",
+        "description": "Premium materials that protect while they beautify"
+      }
+    ],
+    "howItWorks": [
+      { "step": 1, "title": "Choose your style", "description": "Pick from our curated collection of designs" },
+      { "step": 2, "title": "Snap it on", "description": "Slides onto your Oura Ring Gen 3 or 4 in seconds" },
+      { "step": 3, "title": "Stand out", "description": "Turn heads with a ring that matches your vibe" }
+    ],
+    "faq": [
+      {
+        "q": "Will it affect my Oura Ring sensors?",
+        "a": "No. Our open-bottom design leaves all sensors completely unobstructed. Sleep, HRV, heart rate — everything works perfectly."
+      },
+      {
+        "q": "Which Oura Ring models does it fit?",
+        "a": "Unika covers are compatible with both Oura Ring Gen 3 and Gen 4, all sizes."
+      },
+      {
+        "q": "How does the VIP reservation work?",
+        "a": "Pay just $1 now to reserve your spot. On launch day, you'll get exclusive access to 40% off retail pricing. Your $1 is applied to your order. Full refund anytime before production."
+      },
+      {
+        "q": "When will I get my covers?",
+        "a": "Our Kickstarter launches soon. Estimated delivery is Summer 2026."
+      },
+      {
+        "q": "Can I get a refund on my reservation?",
+        "a": "Absolutely. Full refund at any time before the project moves into production. No questions asked."
+      }
+    ]
+  },
+  "reservation": {
+    "headline": "Lock In 40% OFF — VIP Access",
+    "subheadline": "Reserve your Unika Ring covers with just $1",
+    "benefits": [
+      "40% off retail price on launch day",
+      "First access before public launch",
+      "Exclusive backer-only designs",
+      "Full refund guarantee — cancel anytime"
+    ],
+    "disclaimer": "Unika Rings is in final development. Images shown are production-intent designs. Final appearance may vary slightly. VIP price is locked — we'll notify you before launch.",
+    "refundPolicy": "If you cancel your reservation, we guarantee a full refund at any time before the project moves into production."
+  },
+  "confirmed": {
+    "headline": "You're In! 🎉",
+    "subheadline": "Check your email for your VIP receipt and launch details.",
+    "shareText": "I just reserved my Unika Ring cover — decorative covers that make your Oura Ring look like actual jewelry! 💍",
+    "nextSteps": [
+      "Check your inbox for your reservation confirmation",
+      "Follow us on Instagram for design sneak peeks",
+      "Share with friends who have an Oura Ring"
+    ]
+  }
+}

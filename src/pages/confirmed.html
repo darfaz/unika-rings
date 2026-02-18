@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're In! — Unika Rings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container">
+      <a href="/" class="nav-logo">Unika</a>
+    </div>
+  </nav>
+
+  <section class="confirmed-hero">
+    <div class="container">
+      <div class="confirmed-card animate-in">
+        <div class="checkmark">✓</div>
+        <h1>You're In! 🎉</h1>
+        <p class="subtitle" style="color:var(--color-text-light);">Check your email for your VIP receipt and launch details.</p>
+
+        <ol class="next-steps" style="counter-reset:step;">
+          <li>Check your inbox for your reservation confirmation</li>
+          <li>Follow us on Instagram for design sneak peeks</li>
+          <li>Share with friends who have an Oura Ring</li>
+        </ol>
+
+        <p style="font-weight:600;margin-bottom:16px;">Help spread the word:</p>
+        <div class="share-buttons">
+          <a href="https://twitter.com/intent/tweet?text=I%20just%20reserved%20my%20Unika%20Ring%20cover%20%E2%80%94%20decorative%20covers%20that%20make%20your%20Oura%20Ring%20look%20like%20actual%20jewelry!%20%F0%9F%92%8D&url=https://unikarings.com" 
+             target="_blank" class="share-btn share-btn-x">Share on X</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://unikarings.com" 
+             target="_blank" class="share-btn share-btn-fb">Share on Facebook</a>
+          <button class="share-btn share-btn-copy" onclick="navigator.clipboard.writeText('https://unikarings.com');this.textContent='Copied!'">
+            Copy Link
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Unika Rings. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/src/js/analytics.js"></script>
+</body>
+</html>

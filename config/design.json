@@ -1,0 +1,31 @@
+{
+  "colors": {
+    "primary": "#1a1a2e",
+    "secondary": "#c4a35a",
+    "accent": "#e8d5b7",
+    "background": "#faf9f6",
+    "backgroundDark": "#1a1a2e",
+    "text": "#2d2d2d",
+    "textLight": "#6b6b6b",
+    "textOnDark": "#faf9f6",
+    "success": "#4caf50",
+    "cta": "#c4a35a",
+    "ctaHover": "#b08d3e"
+  },
+  "fonts": {
+    "heading": "'Playfair Display', serif",
+    "body": "'Inter', sans-serif",
+    "accent": "'Playfair Display', serif"
+  },
+  "layout": {
+    "maxWidth": "1200px",
+    "borderRadius": "12px",
+    "heroStyle": "split",
+    "navStyle": "minimal"
+  },
+  "meta": {
+    "ogImage": "/public/og-image.jpg",
+    "favicon": "/public/favicon.ico",
+    "themeColor": "#1a1a2e"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Your Unika Ring Cover — VIP Access</title>
+  <meta name="description" content="Lock in 40% OFF with a $1 reservation. Full refund guarantee.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container">
+      <a href="/" class="nav-logo">Unika</a>
+    </div>
+  </nav>
+
+  <!-- RESERVATION -->
+  <section class="reserve-hero">
+    <div class="container">
+      <div class="reserve-card animate-in">
+        <span class="refund-badge">🛡️ 100% Refund Guarantee</span>
+        <h1>Lock In 40% OFF</h1>
+        <p class="subtitle">Reserve your Unika Ring covers with just $1</p>
+        
+        <div class="reserve-price">
+          <span class="amount">$1</span>
+          <span class="label">one-time reservation<br>applied to your order</span>
+        </div>
+
+        <ul class="benefits-list">
+          <li>40% off retail price on launch day</li>
+          <li>First access before public launch</li>
+          <li>Exclusive backer-only designs</li>
+          <li>Full refund guarantee — cancel anytime</li>
+        </ul>
+
+        <button class="reserve-btn" id="checkout-btn" onclick="handleCheckout()">
+          Reserve My VIP Spot — $1
+        </button>
+
+        <p class="reserve-disclaimer">
+          Unika Rings is in final development. Images shown are production-intent designs. 
+          Final appearance may vary slightly. VIP price is locked — we'll notify you before launch.
+          <br><br>
+          <strong>Refund policy:</strong> If you cancel your reservation, we guarantee a full refund 
+          at any time before the project moves into production.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Unika Rings. All rights reserved.</p>
+      <p style="margin-top:8px;"><a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Use</a></p>
+    </div>
+  </footer>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="/src/js/analytics.js"></script>
+  <script src="/src/js/stripe.js"></script>
+</body>
+</html>

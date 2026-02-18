@@ -1,0 +1,18 @@
+{
+  "name": "unika-rings",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Launch funnel for Unika Rings — Oura Ring decorative covers",
+  "scripts": {
+    "dev": "npx serve . -l 3000",
+    "build": "echo 'Static site — no build needed'",
+    "deploy": "echo 'Deploy to Vercel: npx vercel --prod'"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
